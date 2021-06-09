@@ -1,0 +1,17 @@
+<h1>result Page</h1>
+<h2>your text entered</h2>
+{{msg}}
+<br>
+<h2>
+<b>your total text entered {{length}}</b>
+</h2>
+
+<h2>All words count
+    <hr>
+    <ol type='a'>
+        {% for key,values in abc.items %}
+        <li>{{key}}: {{values}}</li>
+        {% endfor %}
+      </ol>
+     <hr/>
+</h2>
